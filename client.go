@@ -8,11 +8,11 @@ import (
 	"io"
 	"io/ioutil"
 
+	_ "github.com/krakendio/krakend-pubsub/v2/kafkapubsub"
 	"gocloud.dev/pubsub"
 	_ "gocloud.dev/pubsub/awssnssqs"
 	_ "gocloud.dev/pubsub/azuresb"
 	_ "gocloud.dev/pubsub/gcppubsub"
-	_ "github.com/SaurabhDubey-Groww/go-cloud/kafkapubsub"
 	_ "gocloud.dev/pubsub/natspubsub"
 	_ "gocloud.dev/pubsub/rabbitpubsub"
 

@@ -5,7 +5,7 @@ go 1.17
 require (
 	github.com/luraproject/lura/v2 v2.0.5
 	gocloud.dev v0.25.0
-	gocloud.dev/pubsub/kafkapubsub v0.25.0
+	github.com/SaurabhDubey-Groww/go-cloud/kafkapubsub v2
 	gocloud.dev/pubsub/natspubsub v0.25.0
 	gocloud.dev/pubsub/rabbitpubsub v0.25.0
 )
